@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Piotra Cebuli</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="password-overlay" class="overlay">
+        <div class="password-box">
+            <h1 class="password-title">Wprowadź hasło, aby kontynuować</h1>
+            <input type="password" id="password-input" placeholder="Wpisz hasło...">
+            <button id="password-button">Wejdź</button>
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </div>
+
+    <div id="main-content-wrapper" class="hidden">
+        <div id="background">
+            <div class="glow"></div>
+        </div>
+    
+        <header class="navbar">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#Home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main class="content-section">
+            <div class="card">
+                <h2 class="card-title">Welcome to my page</h2>
+                <p class="card-text">Lets explore what i can do this page dedicated to learn design</p>
+            </div>
+            <div class="card">
+                <h2 class="card-title">Here is somthing too</h2>
+                <p class="card-text">Lorem ipsum te sprawy</p>
+            </div>
+        </main>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 Project created by Piotr Cebula</p>
+        <ul class="footer-links">
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+        </ul>
+    </div>
+</footer>
+</html>
