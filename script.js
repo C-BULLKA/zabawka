@@ -10,16 +10,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function checkPassword() {
         if (passwordInput.value === correctPassword) {
-            // Prawidłowe hasło: ukryj nakładkę i pokaż główną stronę
+            // Ukryj overlay z hasłem
             passwordOverlay.style.opacity = 0;
             passwordOverlay.style.visibility = 'hidden';
-
-            // Po ukryciu nakładki, pokaż główną zawartość
-            mainContentWrapper.classList.remove('hidden');
-            mainContentWrapper.classList.add('visible');
             
-            // Po ukryciu nakładki, inicjalizujemy gwiazdy
-            initStars();
+            // Pokaż ekran ładowania
+            const loadingScreen = document.getElementById('loading-screen');
+            loadingScreen.style.visibility = 'visible';
+            loadingScreen.style.opacity = 1;
+            
+            // Symuluj ładowanie (3 sekundy)
+            setTimeout(() => {
+                // Ukryj ekran ładowania
+                loadingScreen.style.opacity = 0;
+                loadingScreen.style.visibility = 'hidden';
+                
+                // Pokaż główną zawartość
+                mainContentWrapper.classList.remove('hidden');
+                mainContentWrapper.classList.add('visible');
+                
+                // Inicjalizuj gwiazdy
+                initStars();
+            }, 3000);
         } else {
             // Błędne hasło: pokaż komunikat o błędzie
             errorMessage.textContent = 'Nieprawidłowe hasło, spróbuj ponownie.';
