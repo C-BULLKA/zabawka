@@ -104,17 +104,6 @@ body {
     left: 0;
 }
 
-
-/* Ogólne style i tło */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    color: #EAEAEA;
-    background-color: #0D0F1C;
-    height: 100vh;
-}
-
 /* Ukryj główną zawartość na początku */
 .hidden {
     opacity: 0;
@@ -153,7 +142,7 @@ body {
     text-align: center;
     background: linear-gradient(145deg, rgba(93, 63, 211, 0.2), rgba(153, 102, 204, 0.2));
     border: 1px solid rgba(153, 102, 204, 0.5);
-    backdrop-filter: blur(5px); /* Moved this property inside the .card selector */
+    backdrop-filter: blur(5px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -170,6 +159,7 @@ body {
     margin-bottom: 10px;
     background: linear-gradient(45deg, #5D3FD3, #9966CC);
     -webkit-background-clip: text;
+    background-clip: text; /* Added standard property for compatibility */
     -webkit-text-fill-color: transparent;
 }
 
@@ -261,6 +251,7 @@ body {
     margin-bottom: 20px;
     background: linear-gradient(45deg, #5D3FD3, #9966CC);
     -webkit-background-clip: text;
+    background-clip: text; /* Added standard property for compatibility */
     -webkit-text-fill-color: transparent;
 }
 
@@ -360,7 +351,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     background: linear-gradient(45deg, #5D3FD3, #9966CC);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textGlow 1.5s ease-in-out infinite alternate;
 }
