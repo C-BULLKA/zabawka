@@ -1,0 +1,96 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lrx Loading_Screen_2" clip-path="url(#clip0_20_47)">
+<rect id="Tpvo ekadowania" width="1920" height="1080" fill="#0D0F1C"></rect>
+<g id="Group 1">
+<g id="Ellipse 1">
+<circle cx="963" cy="542" r="90" fill="#393939"></circle>
+<circle cx="963" cy="542" r="85.5" stroke="#9966CC" stroke-opacity="0.7" stroke-width="9" class="id_anim_stroke-property2" data-duration="2.1739130434782608" data-offset="0" style="stroke-dashoffset: 0px; stroke-dasharray: 0px, 536.344px; animation: 2.17391s linear 0s 1 normal forwards running id_anim_stroke-property2;"></circle>
+</g>
+<circle id="Ellipse 2" cx="963" cy="542" r="70.5" stroke="#9966CC" stroke-opacity="0.7" stroke-width="9" class="id_anim_stroke-property3" data-duration="2.1739130434782608" data-offset="0" style="stroke-dashoffset: 0px; stroke-dasharray: 0px, 442.249px; animation: 2.17391s linear 0s 1 normal forwards running id_anim_stroke-property3;"></circle>
+<circle id="Ellipse 3" cx="963" cy="542" r="55.5" stroke="#9966CC" stroke-opacity="0.7" stroke-width="9" class="id_anim_stroke-property4" data-duration="2.1739130434782608" data-offset="0" style="stroke-dashoffset: 0px; stroke-dasharray: 0px, 348.153px; animation: 2.17391s linear 0s 1 normal forwards running id_anim_stroke-property4;"></circle>
+<circle id="Ellipse 4" cx="963" cy="542" r="40.5" stroke="#9966CC" stroke-opacity="0.7" stroke-width="9" class="id_anim_stroke-property5" data-duration="2.1739130434782608" data-offset="0" style="stroke-dashoffset: 0px; stroke-dasharray: 0px, 254.058px; animation: 2.17391s linear 0s 1 normal forwards running id_anim_stroke-property5;"></circle>
+<circle id="Ellipse 8" cx="963" cy="542" r="30" fill="black"></circle>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_20_47">
+<rect width="1920" height="1080" fill="white"></rect>
+</clipPath>
+</defs>
+<style>
+        @keyframes id_anim_stroke-property2{
+        
+            0%{
+                stroke-dashoffset: 0px; 
+        stroke-dasharray: 0px, 536.3444213867188px;
+            }
+        
+            50%{
+                stroke-dashoffset: -268.1722106933594px; 
+        stroke-dasharray: 268.1722106933594px, 268.1722106933594px;
+            }
+        
+            100%{
+                stroke-dashoffset: -536.3444213867188px; 
+        stroke-dasharray: 536.3444213867188px, 0px;
+            }
+        
+        }
+         
+        @keyframes id_anim_stroke-property3{
+        
+            0%{
+                stroke-dashoffset: 0px; 
+        stroke-dasharray: 0px, 442.2490539550781px;
+            }
+        
+            50%{
+                stroke-dashoffset: -221.12452697753906px; 
+        stroke-dasharray: 221.12452697753906px, 221.12452697753906px;
+            }
+        
+            100%{
+                stroke-dashoffset: -442.2490539550781px; 
+        stroke-dasharray: 442.2490539550781px, 0px;
+            }
+        
+        }
+         
+        @keyframes id_anim_stroke-property4{
+        
+            0%{
+                stroke-dashoffset: 0px; 
+        stroke-dasharray: 0px, 348.1534729003906px;
+            }
+        
+            50%{
+                stroke-dashoffset: -174.0767364501953px; 
+        stroke-dasharray: 174.0767364501953px, 174.0767364501953px;
+            }
+        
+            100%{
+                stroke-dashoffset: -348.1534729003906px; 
+        stroke-dasharray: 348.1534729003906px, 0px;
+            }
+        
+        }
+         
+        @keyframes id_anim_stroke-property5{
+        
+            0%{
+                stroke-dashoffset: 0px; 
+        stroke-dasharray: 0px, 254.05795288085938px;
+            }
+        
+            50%{
+                stroke-dashoffset: -127.02897644042969px; 
+        stroke-dasharray: 127.02897644042969px, 127.02897644042969px;
+            }
+        
+            100%{
+                stroke-dashoffset: -254.05795288085938px; 
+        stroke-dasharray: 254.05795288085938px, 0px;
+            }
+        
+        }
+        </style></svg>
