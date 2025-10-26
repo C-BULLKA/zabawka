@@ -306,34 +306,3 @@ body {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-/* Ekran ładowania */
-.loading-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #0D0F1C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9998;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-}
-
-.loading-screen.hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.loading-svg {
-    width: 180px;
-    height: 180px;
-    animation: rotateLoader 2.5s linear infinite;
-}
-
-@keyframes rotateLoader {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
